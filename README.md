@@ -18,6 +18,12 @@ This project is a C++ thread pool.
       ```C++
       t.detach()
       ```
+    - Try if thread can call .join() or .detach():
+      ```C++
+      t.joinable()
+      /* return bool */
+      ```
+      
 - Thread Pool: A thread pool is a design pattern and a mechanism used in concurrent programming to manage and reuse a fixed number of threads.
     - Create a group of pre-initialized threads that are ready to perform tasks as needed
     - When a task needs to be executed concurrently, the thread pool assigns (not creating a new one) an available thread from the pool to perform the task. 
