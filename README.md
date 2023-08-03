@@ -9,4 +9,5 @@ This project is a C++ thread pool.
     - Create a group of pre-initialized threads that are ready to perform tasks as needed
     - When a task needs to be executed concurrently, the thread pool assigns (not creating a new one) an available thread from the pool to perform the task. 
     - When a task is completed, the thread is returned to the pool, making it available for other tasks.
-    - reduce the overhead of thread creation and destruction
+    - Reduce the overhead of thread creation and destruction
+    - Max amount of threads cannot be greater than the amount of CPUs.
