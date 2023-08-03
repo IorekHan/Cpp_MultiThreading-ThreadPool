@@ -10,6 +10,10 @@ This project is a C++ thread pool.
       #include <thread>
       std::thread t(function_name, args...);
       ```
+    - Freeze to wait for thread complete:
+      ```C++
+      t.join();
+      ```
 - Thread Pool: A thread pool is a design pattern and a mechanism used in concurrent programming to manage and reuse a fixed number of threads.
     - Create a group of pre-initialized threads that are ready to perform tasks as needed
     - When a task needs to be executed concurrently, the thread pool assigns (not creating a new one) an available thread from the pool to perform the task. 
