@@ -31,3 +31,7 @@ This project is a C++ thread pool.
     - Reduce the overhead of thread creation and destruction
     - Max amount of threads cannot be greater than the amount of CPUs.
 
+## Threading with different input class
+    1. RefVariable.cpp shows how to use ref to feed addess reference
+    2. GlobalVariable.cpp shows how to feed address reference when both variable and the thread are global.
+    3.
