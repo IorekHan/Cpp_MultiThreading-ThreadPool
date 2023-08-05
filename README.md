@@ -1,6 +1,8 @@
 # Cpp_MultiThreading-ThreadPool
 
-This project is a C++ thread pool.
+This project is a C++ thread pool. Following contents includes:
+- Threading functions intro.
+- How to deal with different input type.
 
 # Intro
 - Process: a process is an independent and self-contained unit of execution that represents a running program. It has its own memory space and system resources, such as file handles and network connections. Processes are managed by the OS and provide a way for multiple programs to run concurrently.
