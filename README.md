@@ -7,6 +7,7 @@ This project is a C++ thread pool. Following contents includes:
 # Intro
 - Process: a process is an independent and self-contained unit of execution that represents a running program. It has its own memory space and system resources, such as file handles and network connections. Processes are managed by the OS and provide a way for multiple programs to run concurrently.
 - Thread: a thread is the smallest unit of execution within a process. Threads share the same memory space and resources of their parent process, allowing multiple threads to execute concurrently within a single process.
+- Functions:
     - Start a thread in C++:
       ```C++
       #include <thread>
@@ -32,6 +33,14 @@ This project is a C++ thread pool. Following contents includes:
           mtx.lock();
           /* calculations */
           mtx.unlock();
+      }
+      ```
+    - lock_guard: automatically lock or unlock mutex when constructing or destructing:
+      ```C++
+      std::mutex mtx;
+      void function(){
+          std::lock_guard<std::mutex> lock(mtx);
+          /* calculations */
       }
       ```
       
