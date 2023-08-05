@@ -35,3 +35,4 @@ This project is a C++ thread pool.
 1. ```RefVariable.cpp``` shows how to use ref to feed addess reference
 2. ```GlobalVariable.cpp``` shows how to feed address reference when both variable and the thread are global.
 3. ```ptrVariable.cpp``` shows how to feed pointer and avoid wild pointers
+4. ```SharedptrClassInput.cpp``` shows how to feed class public function input with shared pointer.
