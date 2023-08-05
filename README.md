@@ -43,6 +43,7 @@ This project is a C++ thread pool. Following contents includes:
           /* calculations */
       }
       ```
+    - unique_guard: provide more functions than lock_guard.
       
 - Thread Pool: A thread pool is a design pattern and a mechanism used in concurrent programming to manage and reuse a fixed number of threads.
     - Create a group of pre-initialized threads that are ready to perform tasks as needed
