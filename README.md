@@ -65,3 +65,6 @@ This project is a C++ thread pool. Following contents includes:
 3. ```ptrVariable.cpp``` shows how to feed pointer and avoid wild pointers
 4. ```SharedptrClassInput.cpp``` shows how to feed class public function input with shared pointer.
 5 ```friendPrivateInput.cpp``` shows how to feed class private funciton input with friend funciton and shared pointer.
+
+# Thread Pool
+Combing all things mentioned, ```ThreadPool.cpp``` is a thread pool with constructing, destructing and producer-consumer model. With functions in C++11 used here, lines of code are shortened. You can call the ThreadPool funciton in main funciton to start the thread pool and add tasks to it.
