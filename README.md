@@ -17,7 +17,7 @@ This project is a C++ thread pool. Following contents includes:
     - [lock_guard](#lock_guard)
     - [unique_guard](#unique_guard)
     - [call_once](#call_once)
-- [Thread Pool](#thread-pool)
+  - [Thread Pool](#thread-pool)
 - [Consumer and Producer Model with condition variable](#consumer-and-producer-model-with-condition-variable)
 - [Threading with different input class](#threading-with-different-input-class)
 - [Thread Pool](#thread-pool-1)
