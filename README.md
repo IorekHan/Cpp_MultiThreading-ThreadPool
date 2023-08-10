@@ -4,6 +4,25 @@ This project is a C++ thread pool. Following contents includes:
 - Threading functions intro.
 - How to deal with different input type.
 
+# Table of Contents
+- [Intro](#intro)
+  - [Process](#process)
+  - [Thread](#thread)
+  - [Functions](#functions)
+    - [Start a thread in C++](#start-a-thread-in-c)
+    - [Freeze to wait for thread complete](#freeze-to-wait-for-thread-complete)
+    - [Detach thread from main](#detach-thread-from-main)
+    - [Try if thread can call .join() or .detach()](#try-if-thread-can-call-join-or-detach)
+    - [Mutex](#mutex)
+    - [lock_guard](#lock_guard)
+    - [unique_guard](#unique_guard)
+    - [call_once](#call_once)
+- [Thread Pool](#thread-pool)
+- [Consumer and Producer Model with condition variable](#consumer-and-producer-model-with-condition-variable)
+- [Threading with different input class](#threading-with-different-input-class)
+- [Thread Pool](#thread-pool-1)
+
+
 # Intro
 - Process: a process is an independent and self-contained unit of execution that represents a running program. It has its own memory space and system resources, such as file handles and network connections. Processes are managed by the OS and provide a way for multiple programs to run concurrently.
 - Thread: a thread is the smallest unit of execution within a process. Threads share the same memory space and resources of their parent process, allowing multiple threads to execute concurrently within a single process.
